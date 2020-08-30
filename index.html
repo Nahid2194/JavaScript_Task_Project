@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
     <title>Document</title>
 </head>
 <body>
     <div class="container">
+        <div class="main">
         <h4>Task List</h4>
         <form id="task_form">
             <input id="new_task" type="text" placeholder="New Task">
-            <input type="submit" value="ADD TASK">
+            <input id="btn" type="submit" value="ADD TASK">
         </form>
         <hr>
         <h4>Tasks</h4>
@@ -22,6 +24,7 @@
             </ul>
             <button id="clear_task">CLEAR TASKS</button>
         </form>
+    </div>
       </div>
     
     <script src="/js/script.js"></script>
